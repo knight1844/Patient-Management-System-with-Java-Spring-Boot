@@ -4,10 +4,10 @@ Content-Type: application/json
 
 
 {
-    "name": "Bernard Knight",
-    "email": "sark12@gmail.com",
+    "name": "Bernard Knight Gyamfi",
+    "email": "sark122@gmail.com",
     "address": "Takoradi-Apollo",
-    "dateOfBirth": "1995-09-09",
+    "dateOfBirth": "1995-06-09",
     "registeredDate": "2024-11-28"
 
 }
