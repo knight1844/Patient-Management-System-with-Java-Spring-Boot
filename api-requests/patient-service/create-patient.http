@@ -4,8 +4,8 @@ Content-Type: application/json
 
 
 {
-    "name": "Iman Gadzhi",
-    "email": "iman11441.gadzhi@gmail.com",
+    "name": "Iman Gadzhi one",
+    "email": "iman1141869 41.gadzhi@gmail.com",
     "address": "Dubai",
     "dateOfBirth": "2000-06-09",
     "registeredDate": "2026-01-28"
@@ -13,5 +13,3 @@ Content-Type: application/json
 }
 
 
-
-###
