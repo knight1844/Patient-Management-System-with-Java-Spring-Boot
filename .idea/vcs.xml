@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Patient-Management-System-with-Java-Spring-Boot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/service" vcs="Git" />
   </component>
 </project>

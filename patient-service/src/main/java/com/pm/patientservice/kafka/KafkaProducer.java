@@ -8,8 +8,6 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import patient.events.PatientEvent;
 
-import java.util.concurrent.CompletableFuture;
-
 @Service
 public class KafkaProducer {
     private static final Logger log = LoggerFactory.getLogger(KafkaProducer.class);
@@ -27,10 +25,11 @@ public class KafkaProducer {
                 .build();
 
         try {
-            kafkaTemplate.send("patient", event.toByteArray());
+            kafkaTemplate.send("patients", event.toByteArray()).get();
+            log.info("Published PatientCreated event for patientId={}", patient.getId());
 
         } catch (Exception e) {
-            log.error("Error sending PatientCreated event: {}", event);
+            throw new IllegalStateException("Failed to publish PatientCreated event", e);
         }
 
     }
