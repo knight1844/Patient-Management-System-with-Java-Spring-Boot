@@ -10,11 +10,16 @@
         <option value="$PROJECT_DIR$/analytics-service/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ben/pom.xml" />
+        <option value="$PROJECT_DIR$/Auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/authentication-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Auth-service/pom.xml" />
         <option value="$PROJECT_DIR$/auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ben/pom.xml" />
       </set>
     </option>
   </component>
